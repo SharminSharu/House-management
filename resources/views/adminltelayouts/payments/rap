@@ -1,0 +1,24 @@
+   {{-- <td>{{ $k + 1 }}</td>
+                                     
+                                        <td>{{ $v->flat_assign->tenant->name }}</td>
+                                        <td>{{ $v->purpose }}</td>
+                                        <td>{{ $v->rent_payment }}</td>
+                                        <td>{{ $v->paid }}</td>
+                                     <td>{{ $v->rent_payment - $v->paid }}</td>
+                                        <td>{{ $v->payment_date }}</td> --}}
+                                        {{-- <td>
+                                            <a href="{{ route('payment.edit', $v->id) }}"><button type="submit"
+                                                    class="btn btn-primary btn-sm">Edit</button></a> &nbsp;
+                                            <a href="#"
+                                                onclick="event.preventDefault(); document.getElementById('delete-form').submit();">
+                                                <button type="submit" class="btn btn-danger btn-sm">Delete</button></a>
+                                            &nbsp;
+                                            <form id="delete-form" action="{{ route('payment.destroy', $v->id) }}"
+                                                method="POST" style="display: none;">
+                                                @method('DELETE')
+                                                @csrf
+                                            </form>
+                                        </td> --}}
+
+                                        <?php $tenant = App\Models\Tenant::find($f->tenant_id); ?>
+               <option value="{{$f->id}}">{{$tenant->name}}</option> 
