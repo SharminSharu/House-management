@@ -13,6 +13,8 @@
 
 
 ## Features
+#Laravel Breeze Authenticate
+
 
 
 
