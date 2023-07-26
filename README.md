@@ -13,7 +13,10 @@
 
 
 ## Features
-#Laravel Breeze Authenticate
+##Laravel Breeze Authenticatation
+##Tenant's Add
+##Flat's Add
+##Flatassign for Tenants
 
 
 
