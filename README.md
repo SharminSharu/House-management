@@ -7,20 +7,54 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## House-Managment Software
-*This software is about an online-based House-Management System Software made by Laravel-10.This project will provide information about house lord,Flatroom,Tenants, House rent payment releted Software.*
+# House Management Software
+
+This software is about an online-based House-Management System Software made by Laravel-10.This project will provide information about house lord,Flatroom,Tenants, House rent payment related Software.
 
 
+## Deployment
 
+To deploy this project run
+
+```bash
+
+  npm run dev
+  php artisan serve
+```
+SQL file add from the database folder in localhost/phpmyadmin then this Website run with the database
+
+```bash
+Username:sharmin@email.com
+password:12345
+```
 ## Features
-***Laravel Breeze Authenticatation
-***Tenant Manage
-***Flat Manage
-***Flatassign Manage
-***Flat Rent & Others payment Manage
-***Bills Manage
-****User Manage
 
+- Laravel Breeze Authentication
+- Tenant Management
+- Flat  Management
+- Flatassign Management
+- Flat Rent & Other payments  Management
+- Bills  Management
+- Expense  Management
+- User  Management
+
+  ## My Skills
+I'm Sharmin Akter.I'm a full-stack developer.My Skills are...
+- PHP
+- Laravel 
+- Codeigniter3 
+- Vue.Js 
+- React Js 
+- Angular6 -
+- JavaScript 
+- Jquery 
+- MySQL
+- Ajax 
+- WordPress theme development
+-  WordPress Plugin development
+- Bootstrap
+- Html5
+- CSS3
 
 
 
